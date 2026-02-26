@@ -366,7 +366,7 @@ elif menu == "🚗 Avtomobil hamrohligi":
 elif menu == "👤 Jismoniy shaxslar":
     st.markdown("## 👤 Jismoniy Shaxslar Uchun Yig'imlar")
     st.info("Chegara bojxona postlarida jismoniy shaxslar uchun alohida stavkalar qo'llaniladi.")
-    tab1, tab2 = st.tabs(["📦 Chegara ombori saqlash","📋 Umumiy rasmiylashtiruv"])
+    tab1, tab2 = st.tabs(["📦 Chegarada vaqtincha saqlaganlik uchun","📋 Umumiy rasmiylashtiruv"])
 
     with tab1:
         st.markdown("<div class='info-box'><b>7-modda:</b> Notijorat maqsadlarda, belgilangan me'yordan ortiq bo'lgan tovarlar.</div>", unsafe_allow_html=True)
