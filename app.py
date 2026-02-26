@@ -104,7 +104,7 @@ with st.sidebar:
     ], label_visibility="collapsed")
 
 # ─── SARLAVHA ───
-st.markdown("<h1>📦 Bojxona Yig'imlari Kalkulyatori · VM № 55 · 2025</h1>", unsafe_allow_html=True)
+st.markdown("<h1>📦 Bojxona Yig'imlari Kalkulyatori </h1>", unsafe_allow_html=True)
 
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("💵 1 USD (CBU)", f"{USD_RATE:,.0f} so'm")
